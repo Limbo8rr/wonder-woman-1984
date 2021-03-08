@@ -55,10 +55,16 @@
         "tilemapTile": true,
         "displayName": "myTile4"
     },
+    "tile10": {
+        "data": "hwQQABAAAAAdERERERERsdHd3d3d3d290d3d3d3d3b3R3d3d3d3dvdHdzCzCzN290d2sKqLK3b3R3axURcrdvdHdIkVUIt290d0iRVQi3b3R3axURcrdvdHdrCqiyt290d3MLMLM3b3R3d3d3d3dvdHd3d3d3d290d3d3d3d3b27u7u7u7u7uw==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile5"
+    },
     "level": {
         "id": "level",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjEwMDgwZjBiMGIwYjBmMGYwZjBmMGYwZjBiMGIwYjBiMGIwODBmMGIwMTA4MDgwODA4MDgwODA4MDMwODA4MDgwODA4MGYwYjBiMGIwYjBiMGIwODA5MDkwYjBmMDgwZjBiMDMwYjBiMGEwNjBiMGIwYjA0MDkwYjA2MDkwODBmMGIwYjBiMGIwYTBiMGIwODA4MDgwOTA5MGIwZjA4MDUwYjBiMGIwYjBhMDgwODAzMGIwODBiMGIwODA4MDgwNDA4MDgwZjBiMGIwODBmMGIwYjA1MGYwYjA4MGIwYjBiMGIwODBmMGIwYjA1MGYwYjBiMDgwZjBiMDgwYjBiMGIwYjA4MGYwYjBmMDgwZjBiMGIwODBmMGIwODBmMGIwMzA2MDgwZjBiMGYwODA4MDQwYjA4MGYwYjA0MGYwYjA3MDgwNDBiMGIwZjA4MGYwODBiMDMwYjBiMDgwZjBiMGIwYjBiMGIwYjBiMDYwYjA4MGIwODBiMGIwODA4MDUwMzA4MDgwODAyMGIwYjBiMDgwYjA4MDUwODA0MDkwYjBiMGIwYjBiMGIwYjBiMGIwNDBiMGIwODBmMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjA4MDgwNTA4MGYwYjBiMGIwYjBiMGIwYjBiMjIyMjIyMjIyMjIyMDAyMjIyMjIyMjIyMjIyMjAyMjIwMDAwMDAwMDAwMDAwMDIyMjIyMjAyMDAyMjIwMDIyMjAwMjIwMjIwMjIyMDIyMjIyMDAyMDAwMDIyMDAyMjIyMDAwMDAyMjIwMDAwMDAyMjAyMjIwMjIyMjAyMjAwMjIwMjIyMDIyMjIwMjIwMDIyMDIyMjAyMjIyMDAyMDAyMjAyMDAwMjIyMjAwMjAwMjIwMjAyMDIyMjIwMjIyMjIyMDIwMjAyMjIwMDAwMDAwMDIyMDIwMjAwMDAyMjIyMjIyMjAyMjIyMDIyMjIyMjIyMjIwMjAwMjAyMjIyMjIyMg==",
+        "data": "MTAxMDAwMTAwMDBiMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBkMDgwYzBiMGIwYjBjMGMwYzBjMGMwYzBiMGIwYjBiMGIwODBjMGIwMTA4MDgwODA4MDgwODA4MDMwODA4MDgwODA4MGMwYjBiMGIwYjBiMGIwODA5MDkwYjBjMDgwYzBiMDMwYjBiMGEwNjBiMGIwYjA0MDkwYjA2MDkwODBjMGIwYjBiMGIwYTBiMGIwODA4MDgwOTA5MGIwYzA4MDUwYjBiMGIwYjBhMDgwODAzMGIwODBiMGIwODA4MDgwNDA4MDgwYzBiMGIwODBjMGIwYjA1MGMwYjA4MGIwYjBiMGIwODBjMGIwYjA1MGMwYjBiMDgwYzBiMDgwYjBiMGIwYjA4MGMwYjBjMDgwYzBiMGIwODBjMGIwODBjMGIwMzA2MDgwYzBiMGMwODA4MDQwYjA4MGMwYjA0MGMwYjA3MDgwNDBiMGIwYzA4MGMwODBiMDMwYjBiMDgwYzBiMGIwYjBiMGIwYjBiMDYwYjA4MGIwODBiMGIwODA4MDUwMzA4MDgwODAyMGIwYjBiMDgwYjA4MDUwODA0MDkwYjBiMGIwYjBiMGIwYjBiMGIwNDBiMGIwODBjMGIwYjBiMGIwYjBiMGIwYjBiMGIwYjBlMDgwNTA4MGMwYjBiMGIwYjBiMGIwYjBiMjIyMjIyMjIyMjIyMDAyMjIyMjIyMjIyMjIyMjAyMjIwMDAwMDAwMDAwMDAwMDIyMjIyMjAyMDAyMjIwMDIyMjAwMjIwMjIwMjIyMDIyMjIyMDAyMDAwMDIyMDAyMjIyMDAwMDAyMjIwMDAwMDAyMjAyMjIwMjIyMjAyMjAwMjIwMjIyMDIyMjIwMjIwMDIyMDIyMjAyMjIyMDAyMDAyMjAyMDAwMjIyMjAwMjAwMjIwMjAyMDIyMjIwMjIyMjIyMDIwMjAyMjIwMDAwMDAwMDIyMDIwMjAwMDAyMjIyMjIyMjAyMjIyMDIyMjIyMjIyMjIwMjAwMjAyMjIyMjIyMg==",
         "tileset": [
             "myTiles.transparency16",
             "myTiles.tile1",
@@ -72,11 +78,9 @@
             "sprites.dungeon.darkGroundCenter",
             "sprites.dungeon.darkGroundWest",
             "myTiles.tile4",
-            "myTiles.tile5",
-            "myTiles.tile6",
-            "myTiles.tile7",
             "myTiles.tile8",
-            "myTiles.tile9"
+            "myTiles.tile9",
+            "myTiles.tile10"
         ],
         "displayName": "level"
     },

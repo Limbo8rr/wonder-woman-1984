@@ -1,5 +1,16 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile4`, function (sprite, location) {
-    game.over(false)
+    if (Math.percentChance(20)) {
+        info.startCountdown(10)
+    } else if (Math.percentChance(40)) {
+        game.over(false)
+    } else if (Math.percentChance(70)) {
+        if (game.ask("game over win?", "game over lose?")) {
+            game.over(false)
+        } else {
+            controller.moveSprite(wonderWoman)
+            controller.moveSprite(wonderwoman2)
+        }
+    }
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, function (sprite, location) {
     music.baDing.play()
@@ -11,7 +22,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sp
     info.changeScoreBy(randint(50, 500))
     tiles.setTileAt(location, sprites.dungeon.darkGroundCenter)
 })
-scene.onOverlapTile(SpriteKind.Player, assets.tile`tile2`, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile5`, function (sprite, location) {
     game.over(true)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
@@ -23,7 +34,9 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, func
     tiles.setTileAt(location, sprites.dungeon.chestClosed)
     info.changeScoreBy(1000)
 })
-let wonderWoman = sprites.create(img`
+let wonderwoman2: Sprite = null
+let wonderWoman: Sprite = null
+wonderWoman = sprites.create(img`
     . . . . . d 2 2 2 d . . . . . . 
     . . . . . 5 2 5 2 5 . . . . . . 
     . . . . . d 8 8 8 d . . . . . . 
@@ -31,7 +44,7 @@ let wonderWoman = sprites.create(img`
     . . . . . . d . d . . . . . . . 
     . . . . . . 2 . 2 . . . . . . . 
     `, SpriteKind.Player)
-let wonderwoman2 = sprites.create(img`
+wonderwoman2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . f f 5 f f . . . . . . 
     . . . . f f 5 2 5 f f . . . . . 
