@@ -26,16 +26,16 @@ namespace myTiles {
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
             case "level":
-            case "level":return tiles.createTilemap(hex`100010000b0b0b0b0b0b0b0b0b0b0b0b0d080c0b0b0b0c0c0c0c0c0c0b0b0b0b0b080c0b01080808080808080308080808080c0b0b0b0b0b0b0809090b0c080c0b030b0b0a060b0b0b04090b0609080c0b0b0b0b0a0b0b08080809090b0c08050b0b0b0b0a0808030b080b0b0808080408080c0b0b080c0b0b050c0b080b0b0b0b080c0b0b050c0b0b080c0b080b0b0b0b080c0b0c080c0b0b080c0b080c0b0306080c0b0c0808040b080c0b040c0b0708040b0b0c080c080b030b0b080c0b0b0b0b0b0b0b060b080b080b0b08080503080808020b0b0b080b08050804090b0b0b0b0b0b0b0b0b040b0b080c0b0b0b0b0b0b0b0b0b0b0b0e0805080c0b0b0b0b0b0b0b0b`, img`
+            case "level":return tiles.createTilemap(hex`100010000909090909090909090909090b080a0909090a0a0a0a0a0a0909090909080a0901080808080808080308080808080a090909090909080909090a080a0906090909060909090409090609080a090909090909090808080909090a08050909090909080803090809090808080408060a0909080a0909050a090809090909080a0909050a0909080a090809090909080a090a080a0909080a09080a090306080a090a08080409080a09040a0907080409090a080a0809030909080a0909090909090906090809080909080805030808080209090908090805080406090909090909090909040909080a09090909090909090909090c0805080a0909090909090909`, img`
 2 2 2 2 2 2 2 2 2 2 2 2 . . 2 2 
 2 2 2 2 2 2 2 2 2 2 2 2 2 . 2 2 
 . . . . . . . . . . . . . . 2 2 
-2 2 2 2 2 . . . 2 2 . 2 2 . 2 2 
-. . 2 2 2 . . 2 2 2 . 2 2 2 2 2 
-. 2 2 . . . . . 2 2 . . 2 2 2 2 
-. . . . 2 . 2 2 . . . . . . 2 2 
-2 . 2 2 2 . 2 2 . 2 2 2 . . 2 2 
-2 . 2 2 2 . 2 2 . 2 2 2 . . 2 2 
+2 2 2 2 2 . 2 2 2 2 . 2 2 . 2 2 
+2 . 2 2 2 . 2 2 2 2 . 2 2 2 2 2 
+2 2 2 . . . 2 2 2 2 . . 2 2 2 2 
+2 . . . 2 . 2 2 . . . . . . 2 2 
+2 . 2 2 2 . 2 2 . 2 2 2 2 . 2 2 
+2 . 2 2 2 . 2 2 . 2 2 2 2 . 2 2 
 2 . 2 2 2 . 2 2 . 2 2 . . . 2 2 
 2 . . . 2 . 2 2 . 2 2 . . . 2 2 
 2 . 2 . 2 . 2 2 . 2 2 2 2 2 2 2 
@@ -43,7 +43,7 @@ namespace myTiles {
 2 2 2 . 2 . . . . . 2 2 2 2 2 2 
 2 2 2 . 2 2 . 2 2 2 2 2 2 2 2 2 
 2 2 2 . . . . 2 2 2 2 2 2 2 2 2 
-`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.chestClosed,sprites.dungeon.collectibleBlueCrystal,sprites.dungeon.collectibleInsignia,sprites.dungeon.chestOpen,sprites.builtin.brick,sprites.dungeon.darkGroundCenter,sprites.dungeon.darkGroundWest,myTiles.tile4,myTiles.tile8,myTiles.tile9,myTiles.tile10], TileScale.Sixteen);
+`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.chestClosed,sprites.dungeon.collectibleBlueCrystal,sprites.dungeon.collectibleInsignia,sprites.dungeon.chestOpen,sprites.builtin.brick,sprites.dungeon.darkGroundCenter,myTiles.tile8,myTiles.tile9,myTiles.tile10], TileScale.Sixteen);
         }
         return null;
     })
